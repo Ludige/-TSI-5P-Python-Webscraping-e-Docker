@@ -1,0 +1,23 @@
+version: '1.1'
+
+services:
+  test-redis:
+    image: 'redis:alpine'
+
+  aplicacao-1:
+    restart: on-failure
+    build: ./aplicacao-1
+    ports: 
+      - '3008:5000'
+  aplicacao-2:
+    restart: on-failure
+    build: ./aplicacao-2
+    ports: 
+      - '3009:5000'
+  nginx:
+    build: ./nginx
+    ports:
+    - "80:80"
+    depends_on:
+      - aplicacao-1
+      - aplicacao-2

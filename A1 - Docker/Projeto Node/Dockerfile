@@ -1,6 +1,5 @@
 # Especificar a imagem base
-FROM alpine
-# From node:alpine
+From node:alpine
 
 WORKDIR /usr/app
 # Instalar as dependencias

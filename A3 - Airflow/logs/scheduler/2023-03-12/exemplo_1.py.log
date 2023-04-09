@@ -1,0 +1,172 @@
+[2023-03-12T01:34:04.866+0000] {processor.py:153} INFO - Started process (PID=56) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:34:04.867+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:34:04.875+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:04.874+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:34:05.418+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:34:06.913+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:06.913+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:demo
+[2023-03-12T01:34:07.039+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:07.038+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:demo
+[2023-03-12T01:34:07.094+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:07.094+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:demo
+[2023-03-12T01:34:07.095+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:07.095+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:34:07.169+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:07.169+0000] {dag.py:2711} INFO - Creating ORM DAG for demo
+[2023-03-12T01:34:07.202+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:07.202+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:34:07.314+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 2.455 seconds
+[2023-03-12T01:34:37.438+0000] {processor.py:153} INFO - Started process (PID=70) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:34:37.441+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:34:37.442+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:37.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:34:37.520+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:34:37.577+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:37.577+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:34:37.643+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:34:37.643+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:34:37.687+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.256 seconds
+[2023-03-12T01:35:08.145+0000] {processor.py:153} INFO - Started process (PID=96) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:35:08.147+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:35:08.148+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:35:08.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:35:08.203+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:35:08.246+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:35:08.245+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:35:08.293+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:35:08.293+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:35:08.332+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.192 seconds
+[2023-03-12T01:35:38.449+0000] {processor.py:153} INFO - Started process (PID=123) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:35:38.451+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:35:38.453+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:35:38.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:35:38.517+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:35:38.567+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:35:38.567+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:35:38.622+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:35:38.621+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:35:38.661+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.217 seconds
+[2023-03-12T01:36:08.796+0000] {processor.py:153} INFO - Started process (PID=157) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:36:08.797+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:36:08.803+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:36:08.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:36:08.927+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:36:09.017+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:36:09.016+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:36:09.206+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:36:09.206+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:36:09.342+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.552 seconds
+[2023-03-12T01:36:39.859+0000] {processor.py:153} INFO - Started process (PID=179) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:36:39.868+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:36:39.869+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:36:39.869+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:36:40.003+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:36:40.140+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:36:40.140+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:36:40.220+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:36:40.219+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:36:40.289+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.442 seconds
+[2023-03-12T01:37:10.802+0000] {processor.py:153} INFO - Started process (PID=205) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:37:10.826+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:37:10.827+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:37:10.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:37:10.919+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:37:10.979+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:37:10.979+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:37:11.079+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:37:11.079+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:37:11.186+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.418 seconds
+[2023-03-12T01:37:41.398+0000] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:37:41.410+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:37:41.411+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:37:41.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:37:41.560+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:37:41.705+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:37:41.705+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:37:41.958+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:37:41.958+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:37:42.428+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 1.038 seconds
+[2023-03-12T01:38:13.119+0000] {processor.py:153} INFO - Started process (PID=248) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:38:13.121+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:38:13.122+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:38:13.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:38:13.178+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:38:13.245+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:38:13.245+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:38:13.290+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:38:13.290+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:38:13.326+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.212 seconds
+[2023-03-12T01:38:43.817+0000] {processor.py:153} INFO - Started process (PID=271) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:38:43.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:38:43.832+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:38:43.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:38:43.988+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:38:44.101+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:38:44.101+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:38:44.305+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:38:44.295+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:38:44.634+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.822 seconds
+[2023-03-12T01:39:15.588+0000] {processor.py:153} INFO - Started process (PID=291) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:39:15.616+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:39:15.622+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:39:15.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:39:16.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:39:16.283+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:39:16.283+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:39:16.908+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:39:16.908+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:39:17.308+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 1.665 seconds
+[2023-03-12T01:39:47.738+0000] {processor.py:153} INFO - Started process (PID=309) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:39:47.741+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:39:47.742+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:39:47.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:39:47.805+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:39:47.849+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:39:47.848+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:39:47.901+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:39:47.901+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:39:47.938+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.207 seconds
+[2023-03-12T01:40:18.149+0000] {processor.py:153} INFO - Started process (PID=334) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:40:18.151+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:40:18.153+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:40:18.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:40:18.196+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:40:18.231+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:40:18.231+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:40:18.272+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:40:18.272+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:40:18.306+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.161 seconds
+[2023-03-12T01:40:48.442+0000] {processor.py:153} INFO - Started process (PID=368) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:40:48.445+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:40:48.447+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:40:48.447+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:40:48.577+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:40:48.636+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:40:48.636+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:40:48.699+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:40:48.698+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:40:48.765+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.328 seconds
+[2023-03-12T01:41:18.819+0000] {processor.py:153} INFO - Started process (PID=394) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:41:18.821+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:41:18.823+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:41:18.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:41:18.896+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:41:18.990+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:41:18.990+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:41:19.101+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:41:19.101+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:41:19.204+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.392 seconds
+[2023-03-12T01:41:49.383+0000] {processor.py:153} INFO - Started process (PID=418) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:41:49.385+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:41:49.387+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:41:49.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:41:49.456+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:41:49.511+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:41:49.510+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:41:49.585+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:41:49.584+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:41:49.628+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.250 seconds
+[2023-03-12T01:42:20.003+0000] {processor.py:153} INFO - Started process (PID=441) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:42:20.004+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:42:20.005+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:42:20.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:42:20.063+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:42:20.105+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:42:20.105+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:42:20.152+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:42:20.152+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:42:20.197+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.199 seconds
+[2023-03-12T01:42:50.420+0000] {processor.py:153} INFO - Started process (PID=469) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:42:50.425+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:42:50.434+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:42:50.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:42:50.588+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:42:50.667+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:42:50.666+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:42:50.736+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:42:50.736+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:42:50.799+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.392 seconds
+[2023-03-12T01:43:21.260+0000] {processor.py:153} INFO - Started process (PID=494) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:43:21.268+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:43:21.302+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:43:21.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:43:21.459+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:43:21.538+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:43:21.537+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:43:21.617+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:43:21.617+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:43:21.673+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.422 seconds
+[2023-03-12T01:43:52.255+0000] {processor.py:153} INFO - Started process (PID=510) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:43:52.273+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:43:52.278+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:43:52.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:43:52.534+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:43:52.729+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:43:52.729+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:43:52.909+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:43:52.908+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:43:52.986+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.740 seconds
+[2023-03-12T01:44:23.237+0000] {processor.py:153} INFO - Started process (PID=537) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:44:23.239+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:44:23.240+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:44:23.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:44:23.289+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:44:23.329+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:44:23.329+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:44:23.365+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:44:23.365+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:44:23.397+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.165 seconds
+[2023-03-12T01:44:53.702+0000] {processor.py:153} INFO - Started process (PID=564) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:44:53.703+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:44:53.704+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:44:53.704+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:44:53.762+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:44:53.803+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:44:53.803+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:44:53.854+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:44:53.853+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:44:53.890+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.194 seconds
+[2023-03-12T01:45:24.390+0000] {processor.py:153} INFO - Started process (PID=590) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:45:24.392+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:45:24.394+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:45:24.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:45:24.442+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:45:24.475+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:45:24.475+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:45:24.511+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:45:24.511+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:45:24.543+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.159 seconds
+[2023-03-12T01:45:55.068+0000] {processor.py:153} INFO - Started process (PID=616) to work on /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:45:55.071+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/exemplo_1.py for tasks to queue
+[2023-03-12T01:45:55.075+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:45:55.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:45:55.165+0000] {processor.py:753} INFO - DAG(s) dict_keys(['demo']) retrieved from /opt/airflow/dags/exemplo_1.py
+[2023-03-12T01:45:55.208+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:45:55.208+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-03-12T01:45:55.249+0000] {logging_mixin.py:137} INFO - [2023-03-12T01:45:55.248+0000] {dag.py:3441} INFO - Setting next_dagrun for demo to 2022-01-01T00:00:00+00:00, run_after=2022-01-02T00:00:00+00:00
+[2023-03-12T01:45:55.280+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/exemplo_1.py took 0.217 seconds

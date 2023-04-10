@@ -4,6 +4,9 @@ from airflow.operators.python import BranchPythonOperator
 from airflow.operators.empty import EmptyOperator
 from datetime import datetime
 from airflow.models import Variable
+import pandas as pd
+import requests
+import json
 
 DummyOperator = EmptyOperator
 
@@ -15,7 +18,7 @@ def captura_contra_dados():
         return qtd
 
 def e_valida(ti):
-        qtd = ti.xcom_pull(task_ids = 'captura_contra_dados')
+        qtd = ti.xcom_pull(task_id = 'captura_contra_dados')
         if(qtd > 10):
             return 'valido'
         return 'invalido'

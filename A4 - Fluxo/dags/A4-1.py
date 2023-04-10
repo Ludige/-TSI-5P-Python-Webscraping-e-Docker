@@ -2,47 +2,55 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.python import BranchPythonOperator
 from airflow.operators.empty import EmptyOperator
-from datetime import datetime
 from airflow.models import Variable
+from datetime import datetime
+import random 
 
 DummyOperator = EmptyOperator
 
-def captura_contra_dados():
-        url = "https://data.cityofnewyork.us/resource/rc75-m7u3.json"
-        response = requests.get(url)
-        df = pd.DataFrame(json.loads(response.content))
-        qtd = len(df.index)
-        return qtd
-
 def random():
-        # Gera um aleatorio entre 0 e 100
+        num = random.randint(1,100)
+        
         if(num > 50):
             return 'maior_50'
         return 'menor_50'
 
-# def jakenpo():
-        # Escolhe 2 entre as 3 possibilidade, se o primeiro vencer passa, se nao perde
-        # if(pick):
-        #     return 'vence'
-        # return 'perde'
+def jakenpo():
+        num1 = random.random()
+        num2 = random.random()
+        if(num1 > num2):
+            return 'venceu'
+        return 'perdeu'
 
 with DAG(dag_id = 'A4_Json', start_date = datetime(2023,3,12)) as dag:
     start = BranchPythonOperator(
         task_id = 'start',
         python_callable = random
     )
-
-    valido = DummyOperator(
-        task_id = 'valido'
+    
+    op1 = DummyOperator(
+        task_id = 'maior_50'
     )
 
-    invalido = DummyOperator(
-        task_id = 'invalido'
+    op2 = DummyOperator(
+        task_id = 'menor_50'
+    )
+    
+    other_task = BranchPythonOperator(
+        task_id = 'other_task',
+        python_callable = jakenpo
+    )
+       
+    op3 = DummyOperator(
+        task_id = 'venceu'
     )
 
-    capturar_dados = PythonOperator(
-        task_id = 'capturar_dados',
-        python_callable = captura_contra_dados
+    op4 = DummyOperator(
+        task_id = 'perdeu'
+    )
+    
+    end = DummyOperator(
+        task_id = 'end'
     )
 
-    # start >> [op-1,op-2] >> other_task >> [op-3, op-4] >> end
+    start >> [op1,op2] >> other_task >> [op3, op4] >> end
